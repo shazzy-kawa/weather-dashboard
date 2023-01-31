@@ -27,6 +27,7 @@ $('#search-form').on('submit', function(event) {
                 .then(function(weatherResponse) {
                     // Put the response on the HTML page
                     const weatherList = weatherResponse.list;
+                    console.log(weatherResponse);
 
                     const weathers = [];
                     for (let i = 0; i < weatherList.length; i += 8) {
