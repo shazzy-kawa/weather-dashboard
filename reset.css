@@ -4,8 +4,8 @@
     border-style: dashed;
 }
 
-#forecast {
-
-    border-color: black;
+div .col {
     border-style: dashed;
+    border-color: black;
+    padding: auto;
 }
